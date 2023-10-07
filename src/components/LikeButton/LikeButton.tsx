@@ -1,8 +1,8 @@
-'use client';
-import { useState } from 'react';
-import { Inter } from 'next/font/google'
-import { ReactNode } from 'react'
-import { FC } from 'react'
+"use client";
+import { useState } from "react";
+import { Inter } from "next/font/google";
+import { ReactNode } from "react";
+import { FC } from "react";
 
 export const LikeButton: FC = () => {
   const [likes, setLikes] = useState(0);
@@ -19,4 +19,3 @@ export const LikeButton: FC = () => {
     </div>
   );
 };
-
