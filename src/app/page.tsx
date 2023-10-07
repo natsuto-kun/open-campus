@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Button } from "../components/Button/Button";
 import "./mainpage.css";
-import { LikeButton } from "../components/LikeButton/LikeButton";
 import { Header } from "@/components/Header/Header";
 import { H2 } from "@/components/H2/H2";
 import { ToggleButton } from "@/components/Toggle/Toggle";

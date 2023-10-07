@@ -4,8 +4,6 @@
     grid-auto-rows: 300px;
     margin: 40px;
     background-color: white;
-    border: 1px solid gray;
-    border-radius: 10px;
     padding: 40px;
     place-items: center;
   }
