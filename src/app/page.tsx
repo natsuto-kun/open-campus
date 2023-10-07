@@ -7,6 +7,9 @@ import { ToggleButton } from "@/components/Toggle/Toggle";
 import { RadioButton } from "@/components/RadioButton/RadioButton";
 import { CheckBox } from "@/components/CheckBox/CheckBox";
 import { Accordion } from "@/components/Accordion/Accordion";
+import { TextBox } from "@/components/TextBox/TextBox";
+import { Loading } from "@/components/Loading/Loading";
+import { QandA } from "@/components/QandA/QandA";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
         <RadioButton></RadioButton>
         <CheckBox></CheckBox>
         <Accordion></Accordion>
+        <TextBox></TextBox>
+        <Loading></Loading>
+        <QandA></QandA>
       </div>
     </main>
   );
